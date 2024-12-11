@@ -1,0 +1,137 @@
+body{
+    background: linear-gradient(to right, rgb(187, 214, 179), #bed7f3);
+    padding: 0;
+    height: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+li a:hover{
+    background-color: rgb(112, 98, 78);
+}
+.t1{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 35px;
+}
+.p1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cartas{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.cartas img{
+    max-width: 100% ;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+    object-fit: cover
+}
+
+.cartas div{
+    width: 350px;
+    text-align: center;
+    background-color: rgb(187, 214, 179);
+    border: 3px solid rgb(137, 172, 117);
+    border-radius: 25px;
+    gap: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cartas div:hover{
+    background-color:  rgb(137, 172, 117);
+    transform: scale(1.1);
+}
+
+.imagenes{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.imagenes img{
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(19, 99, 168);
+}
+
+.imagenes div{
+    width: 350px;
+    text-align: center;
+
+    background-color: rgb(174, 214, 202);
+    border: 2px solid rgb(95, 175, 148);
+    margin: 15px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.imagenes div:hover{
+    background-color: rgb(95, 175, 148);
+    transform: scale(1.1);  
+}
+
+.imagenes div a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background-color: beige;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid rgb(19, 99, 168);
+}
+
+.imagenes div h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.tour h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+
+}
+
+footer{
+    background-color: rgba(19, 11, 11, 0.767);
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+
+
+}

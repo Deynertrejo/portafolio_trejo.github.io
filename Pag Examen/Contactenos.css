@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://live.staticflickr.com/65535/52484546653_36dcbea62f_b.jpg);
+    background-size: cover;
+}
+
+header {
+    
+    color: rgb(221, 214, 206);
+    padding: 5px 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;  
+}
+
+  .logo h1 {
+    margin: 10px;
+    font-size: 50px;
+
+  }
+  
+  .slogan {
+    font-size: 14px;
+    color: #f0a500;
+    margin-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .Nav1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .Nav1 ul li {
+    margin: 0 20px;
+  }
+
+  .Nav1 ul li a{
+    text-decoration:none ;
+    font-size: 19px;
+    color: rgb(255, 211, 174);
+  }
+
+  .contenedor{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .titulo{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#382202 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ 
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .campos{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 204, 127, 0.712);
+  }
+
+  button{
+    background-color: #ffa938;
+    width: 85px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(48, 28, 6);
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #6b2801;
+    padding-bottom: 29px;
+    margin: -15px;
+  }
+
+footer > div{
+  margin-right: 20px;
+}
+
+footer > div:last-child{
+  margin-right: 0;
+}
+
+.titulo{
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e4b79e;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.lista{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.lista li{
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color:  rgb(19, 11, 4);;
+  
+}
+
+.lista li a {
+  text-decoration: none;
+  color: rgb(19, 11, 4);
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
